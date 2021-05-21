@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+ <style>
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
+  background-image: "Images/venose.jpg";
+
+
+}
+
+/* Global styles*/
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*Header*/
+header{
+  background-color: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #blanding{
+  float: left;
+  margin-bottom: 20px;
+}
+header nav{
+  float:right;
+  margin-top: 10px;
+}
+header .highlight, header .current a{
+  color: #e8491d;
+  font-weight: bold;
+}
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/* Showcase*/
+#showcase{
+  min-height: 400px;
+  background: url('../image/showcase.png');
+  text-align: center;
+  color: #ffffff;
+}
+#showcase h1{
+  margin-top: 95 px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+#showcase p{
+  font-size: 20 px;
+}
+
+/* Newsletter*/
+#newsletter{
+  padding: 15px;
+  color: #ffffff;
+  background: #35424a;
+}
+#newsletter h1{
+  float: left;
+}
+#newsletter form{
+  float: right;
+  margin-top: 20px;
+}
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+
+}
+.button_1{
+  height: 38px;
+  background: #e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+/* Boxes*/
+#boxes{
+  margin-top: 20px;
+}
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+#boxes .box img{
+  width: 90px;
+}
+
+/* Footer*/ 
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center;
+}
+span.p1 {
+float: left;
+margin: 0px;
+width: 200px;
+color: #FFF;
+background-color: #9D080D;
+padding: 10px;
+}
+p{
+  margin: center;
+  margin-left:5%;
+  float: center;
+}
+span.p2 {
+float: left;
+margin: 5px;
+width: 200px;
+color: #FFF;
+background-color: #9D080D;
+padding: 5px;
+}
+span.p2{
+padding: 15px;
+background-color: black;
+border: 2px solid #6C4788;
+width: 50%;
+color: #FFF;
+height: 10%;
+
+}
+id :hover{
+color:#33FF99;
+}
+</style>
+<header>
+      <div class="container">
+        <div id="blanding">
+          <h1><span class="highlight">Class</span> Rwanda E-Buying</h1>
+        </div>
+        <nav>
+          <ul>
+           <table align="center" border="0" cellspacing="20">
+           <tr><th><a href="index.html">Home</a></th>
+           <th><a href="cost.html">Products</a></th>
+            <th class="current"><a href="teaching.html">Registration</a></th>
+            <th><a href="about.html">About us</a></th>
+            <th><a href="contac.html">Contact Us </a></th></tr>
+</table>
+          </ul>
+        </nav>
+      </div>
+    </header>
+<body stlye="background-color:lightgrey">
+<center>
+
+<tr><td><h1 style="background-color:pink;color:white" align="center"> Form for clients</h1></td></tr>
+<table style="background-color:lightgray;width:500px;height:400px;padding:20px;border:1px;border-radius:30px;box-shadow:10px 10px 10px black;" >
+</center>
+<form>
+
+<tr><td>First name </td><td><input type="text" name="frame"></input></td>
+<td>Last name</td><td><input type="text" name="frame"></input></td></tr>
+<tr><td>District</td><td><input type="text" name="frame"></input></td>
+<td>Country name</td<td><input type="text" name="cname"></input></td></tr>
+<td>Date of Birth</td><td><input type="date" name="date" placeholder="mm/dd/yyyy"></input></td></tr>
+<tr><td>Gender</td><td><input type="radio" name="gender"value="Male" checked>Male</input></td>
+<td><input type="radio" name="gender"value="Female" checked>Female</input></td></tr>
+<tr><td>Email </td><td><input type="text" name="frame"></input></td>
+<td>User Name </td><td><input type="text" name="frame"></input></td></tr>
+<tr><td>ATM number </td><td><input type="text" name="frame"></input></td>
+<td>ATM Passcode name</td><td><input type="text" name="frame"></input></td></tr>
+
+<tr><td>Province</td>
+<td><select name="Province" form="Province">
+<option value="Eastern Province">Eastern Province</option>
+<option value="Kigali City">Kigali City</option>
+<option value="Western Province">Western Province</option>
+<option value="Nothern Province">Northern Province</option>
+<option value="Southern Province">Southern Province</option>
+</select></td>
+<td>Bank account</td>
+<td><select multiple size="2">
+<option value="BK">Bank of Kigali</option>
+<option value="BPR">Bank Popular</option>
+<option value="EQui">Equity Bank</option>
+<option value="I$m">I&M Bank</option>
+</select></td></tr>
+<tr><td> upload file</td><td><input type="file" name="choose file"></input></td></tr>
+<tr><td><input type="submit" name="submit"></input>
+<button type="button" onclick="alert('Your form has been registered reset')">reset</button>
+</td></tr>
+</form>
+</center>
+</table>
+</body>
+</html>

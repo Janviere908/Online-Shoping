@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>My website</title>
+    <style>
+        body {
+        background-color: #faf2e4;
+        margin: 0 15%;
+        font-family: sans-serif;
+        }
+        #header {
+        text-align: center;
+        font-family: serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        border-bottom: 1px solid #57b1dc;
+        margin-top: 30px;
+        }
+        h2 {
+        color: #d1633c;
+        font-size: 1em;
+        }
+        h2 a {
+        color: #d1633c;
+        font-size: 1em;
+        background: #ffffff;
+        padding: 2%;
+        float: left;
+        }
+        #myfunnyimg{
+            width: 200px;
+            height: 200px;
+            border-radius:100px;
+        }
+        #div1{
+            width:20%;
+            float: left;
+            padding: 2%;
+        }
+        #div1 #navigation {
+            color: #d1633c;
+            font-size: 1.1em;
+            background: #ffffff;
+            padding: 8%;
+        }
+        #div1 #navigation2 {
+            color: #d1633c;
+            font-size: 1em;
+            background: #ffffff;
+            padding: 5%;
+        }
+        #div1 #navigation3 {
+            color: #d1633c;
+            font-size: 0.9em;
+            background: #ffffff;
+            padding: 3%;
+        }
+        #div1 ul {
+            list-style: none;
+        }
+        #div1 ul li {
+            padding: 4%;
+        }
+        #div1 ul li:hover {
+            background: #ffffff;        }
+        #div1 ul li a {
+            color: #d1633c;
+            font-size: 1em;
+            text-decoration: none;
+        }
+        #div2{
+            width: 70%;
+            float: right;
+            padding: 2%;
+        }
+        #div2 #header1 {
+        text-align: left;
+        font-family: serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 id="header">
+        <img id="myfunnyimg" src="../images/Mine.jpg" alt="Ben picture"><br> Ben's Wine Shop
+    </h1>
+
+    <div id="div1">
+
+        <h2 id="navigation">NAVIGATION</h2>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../tutorial.html">Tutorial</a></li>
+        </ul>
+        <h2 id="navigation2">EXAMPLES</h2>
+        <ul>
+            <li><a href="instructions.html">Instructions</a></li>
+            <li><a href="intro.html">Intro</a></li>
+        </ul>
+        <h2 id="navigation3">FRENCH</h2>
+        <ul>
+            <li><a href="french/friends.html">Friends</a></li>
+            <li><a href="french/family.html">Family</a></li>
+        </ul>
+        <h2 id="navigation3">SPANISH</h2>
+        <ul>
+            <li><a href="spanish/food.html">Food</a></li>
+            <li><a href="spanish/greetings.html">Greetings</a></li>
+        </ul>
+        <h2 id="navigation3">German</h2>
+        <ul>
+            <li><a href="german/colors.html">Colors</a></li>
+            <li><a href="german/money.html">Money</a></li>
+            <li><a href="german/numbers.html">Numbers</a></li>
+        </ul>
+        <h2 id="navigation2">SOME PICTURES</h2>
+        <ul>
+            <li><a href="../images/Funny Picture.jpg">Funny picture</a></li>
+            <li><a href="../images/Owner Picture.jpg">Owner Picture</a></li>
+        </ul>
+
+    </div>
+
+    <div id="div2">
+
+        <h1 id="header1">ORDER YOUR WINE</h1>
+
+        <h2>Enter your details below</h2>
+        
+        <br>
+
+        <form style="width:80%;">
+            <label for="">Your Names</label><br>
+            <input type="text" placeholder="Your names" style="width:70%;">
+
+            <br>
+            <br>
+
+            <label for="">Your Email</label><br>
+            <input type="email" placeholder="Your email" style="width:70%;">
+
+            <br>
+            <br>
+
+            <label for="">Your Phone Number</label><br>
+            <input type="number" placeholder="Your Phone Number" style="width:70%;">
+
+            <br>
+            <br>
+
+            <label for="">Your Address</label><br>
+            <textarea rows="5" style="width:70%;"></textarea>
+
+            <br>
+            <br>
+
+            <label for="">What wine do you want?</label><br>
+            <input type="text" placeholder="Search in the available wines" style="width:57%;">
+            <input type="button" value="Search" style="width: 12%;">
+
+            <br>
+            <br>
+
+            <label for="">Or choose in the list below</label><br>
+            <select style="width:70%;">
+                <option value="Norman Hardie">Norman Hardie</option>
+                <option value="Barolo">Barolo</option>
+                <option value="Pierre monte">Pierre monte</option>
+                <option value="La cana">La cana</option>
+                <option value="Prophet's rock">Prophet's rock</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="">Do you have children</label><br>
+            <input name="status" type="radio" value="Yes">Yes
+            <input name="status" type="radio" value="No">No
+
+            <br>
+            <br>
+
+            <label for="">What extras would you like to have</label><br>
+            <input name="extra" type="checkbox" value="Glasses">Glasses
+            <input name="extra" type="checkbox" value="Bottle opener">Bottle opener
+            <input name="extra" type="checkbox" value="table">Table
+
+            <br>
+            <br>
+
+            <label for="">When do you want your wine</label><br>
+            <input type="date" style="width:70%;">
+
+            <br>
+            <br>
+
+            <label for="">Please give us your picture</label><br>
+            <input type="file" style="width:70%;">
+
+            <br>
+            <br>
+
+            <label for="">Enter a password in case we might need it</label><br>
+            <input type="password" style="width:70%;">
+
+            <br>
+            <br>
+
+            <input type="submit" value="Submit"> <input type="reset" value="Reset">
+        </form>
+    
+    </div>
+
+</body>
+</html>
